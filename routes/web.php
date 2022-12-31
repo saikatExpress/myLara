@@ -18,14 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function () {
-    app()->make('First_service_provider');
-});
 
 
-Route::get('/amar', function () {
-    return 'My php';
-});
 
 
 
